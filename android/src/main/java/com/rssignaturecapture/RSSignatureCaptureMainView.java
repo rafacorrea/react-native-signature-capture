@@ -104,12 +104,12 @@ public class RSSignatureCaptureMainView extends LinearLayout implements OnClickL
     linearLayout.setBackgroundColor(Color.WHITE);
 
     // set texts, tags and OnClickListener
-    saveBtn.setText("Save");
-    saveBtn.setTag("Save");
+    saveBtn.setText("Guardar");
+    saveBtn.setTag("Guardar");
     saveBtn.setOnClickListener(this);
 
-    clearBtn.setText("Reset");
-    clearBtn.setTag("Reset");
+    clearBtn.setText("Borrar");
+    clearBtn.setTag("Borrar");
     clearBtn.setOnClickListener(this);
 
     linearLayout.addView(saveBtn);
